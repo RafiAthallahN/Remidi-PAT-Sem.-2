@@ -36,8 +36,10 @@ public class Main {
         Product pr = new Product("Skechers", "Male Shoes", "Running", "White", 31, 700000);
         pr.info();
         System.out.println(" ");
+        System.out.println("Jumlah Barang Dibeli = 2");
         System.out.println("Harga = Rp "+ (produk.Price + pro.Price));
         System.out.println("Diskon = Rp 50.000 (Pembelian 2 produk)");
         System.out.println("Total Harga = " + ((produk.Price + pro.Price) - 50000));
+        System.out.println("Tanggal Pembelian = 31 Mei 2021");
     }
 }
